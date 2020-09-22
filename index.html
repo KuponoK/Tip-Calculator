@@ -15,6 +15,10 @@
       const billInput = document.querySelector("#peopleInput");
       const billInput = document.querySelector("#displayTip");
       const billInput = document.querySelector("#displayTotal");
+
+      billInput.addEventListener("input", calculateTip);
+      tipInput.addEventListener("input", calculateTip);
+      peopleInput.addEventListener("input", calculateTip);
     </script>
   </body>
 </html>
